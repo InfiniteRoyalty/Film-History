@@ -83,6 +83,9 @@ h3 {
     padding: 20px;
     margin: 0px;
 }
+h3.mtitle {
+    padding-bottom: 0px;
+}
 
 h3.history {
     background-color: black;
@@ -111,10 +114,10 @@ p.title {
 }
 
 p.mdesc {
-    text-align: center;
+    text-align: left;
     justify-content: center;
     font-size: 30px;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 p.tdesc {
