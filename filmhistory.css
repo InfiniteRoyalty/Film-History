@@ -35,12 +35,20 @@ a {
 }
 
 li {
-    background-color: black;
-    font-size: 20px;
-    display: inline-block;
-    overflow-wrap: break-word;
+    font-size: 30px;
     margin: 0;
     padding: 30px;
+}
+
+li.para {
+    font-size: 35px;
+    text-align: left;
+}
+
+li.link {
+    font-size: 25px;
+    display: inline-block;
+    overflow-wrap: break-word;
 }
 
 ul {
@@ -119,7 +127,7 @@ p.tdesc {
 p.para {
     text-align: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: 35px;
     padding: 0px 30px;
 }
 
